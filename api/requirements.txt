@@ -1,0 +1,5 @@
+fastapi==0.87.0
+uvicorn==0.24.0.post1
+SpeechRecognition==3.10.0
+httpx==0.23.0
+PyAudio==0.2.13
