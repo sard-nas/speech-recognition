@@ -19,5 +19,5 @@ async def record_voice():
         return {"text": text}
     except sr.UnknownValueError:
         return {"error": "Речь не распознана"}
-    except BaseException as error:
-        return {"error": f"Неизвестная ошибка: {error}"}
+    except BaseException:
+        return {"error": "Неизвестная ошибка: error"}
